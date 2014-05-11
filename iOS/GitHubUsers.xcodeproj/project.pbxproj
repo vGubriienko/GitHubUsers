@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		211CC4AE191FFF6700F3580C /* avatarPlaceholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 211CC4AD191FFF6700F3580C /* avatarPlaceholder@2x.png */; };
 		2191CE73191FCE38001326D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2191CE72191FCE38001326D2 /* Foundation.framework */; };
 		2191CE75191FCE38001326D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2191CE74191FCE38001326D2 /* CoreGraphics.framework */; };
 		2191CE77191FCE38001326D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2191CE76191FCE38001326D2 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		211CC4AD191FFF6700F3580C /* avatarPlaceholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatarPlaceholder@2x.png"; sourceTree = "<group>"; };
 		2191CE6F191FCE38001326D2 /* GitHubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2191CE72191FCE38001326D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2191CE74191FCE38001326D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -236,6 +238,7 @@
 		2191CEC9191FCF6E001326D2 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				211CC4AD191FFF6700F3580C /* avatarPlaceholder@2x.png */,
 				2191CECA191FCF6E001326D2 /* Images.xcassets */,
 			);
 			path = Images;
@@ -335,6 +338,7 @@
 				2191CEFE191FF174001326D2 /* Main.storyboard in Resources */,
 				2191CEE0191FCF6E001326D2 /* Images.xcassets in Resources */,
 				2191CEE2191FCF6E001326D2 /* InfoPlist.strings in Resources */,
+				211CC4AE191FFF6700F3580C /* avatarPlaceholder@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
