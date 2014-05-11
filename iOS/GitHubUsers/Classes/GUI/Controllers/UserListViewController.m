@@ -8,6 +8,7 @@
 
 #import "UserListViewController.h"
 #import "AFJSONRequestOperation.h"
+#import "UIImageView+AFNetworking.h"
 #import "UIAlertView+Blocks.h"
 #import "PopupHelper.h"
 
@@ -59,6 +60,14 @@ UITableViewDelegate
     
     cell.textLabel.text = _tableData[indexPath.row][@"login"];
     cell.detailTextLabel.text = _tableData[indexPath.row][@"html_url"];
+    
+    NSString *gravatarID = _tableData[indexPath.row][@"gravatar_id"];
+    if ( gravatarID ) {
+        [cell.imageView setImageWithURL:[NSURL URLWithString:[NSString stringWithFormat:@"http://www.gravatar.com/avatar/%@", gravatarID]]
+                       placeholderImage:[UIImage imageNamed:@"avatarPlaceholder.png"]];
+    } else {
+        cell.imageView.image = [UIImage imageNamed:@"avatarPlaceholder.png"];
+    }
     
     return cell;
 }
