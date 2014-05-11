@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5B5D8E67-C90C-4F6F-88CC-74B7C33A8AE7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GitHubUsers</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>CCCD5FC2-901F-4398-A719-4C6C4CA8DB1B</key>
+		<string>ssh://github.com/vGubriienko/GitHubUsers.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/GitHubUsers.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>CCCD5FC2-901F-4398-A719-4C6C4CA8DB1B</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/vGubriienko/GitHubUsers.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>CCCD5FC2-901F-4398-A719-4C6C4CA8DB1B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CCCD5FC2-901F-4398-A719-4C6C4CA8DB1B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GitHubUsers</string>
+		</dict>
+	</array>
+</dict>
+</plist>
